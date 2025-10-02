@@ -1,0 +1,16 @@
+resources:
+  jobs:
+    Job_de_angel:
+      name: Job de angel
+      tasks:
+        - task_key: angel-task
+          spark_python_task:
+            python_file: /Workspace/christian/databricks-repo/angel.py
+          environment_key: Default
+      queue:
+        enabled: true
+      environments:
+        - environment_key: Default
+          spec:
+            client: "3"
+      performance_target: PERFORMANCE_OPTIMIZED
