@@ -5,7 +5,7 @@ bundle:
   uuid: 6b0f8687-e820-4bfd-a728-3dedc067c0e3
 
 include:
-  - /*.yml
+  - ./*.yml
 
 targets:
   dev:
