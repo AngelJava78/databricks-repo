@@ -17,7 +17,7 @@ targets:
     default: true
     workspace:
       host: https://adb-367074336689265.5.azuredatabricks.net
-      root_path: /Repos/myfolder
+      root_path: /Users/${workspace.current_user.userName}/mybundle
     run_as:
       user_name: ${workspace.current_user.userName}
 
