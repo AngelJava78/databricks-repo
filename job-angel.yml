@@ -7,6 +7,10 @@ resources:
           spark_python_task:
             python_file: /Workspace/christian/databricks-repo/angel.py
           environment_key: Default
+        - task_key: notebook1-task
+          spark_python_task:
+            python_file: /Workspace/christian/databricks-repo/notebook1.py
+          environment_key: Default
       queue:
         enabled: true
       environments:
